@@ -1,0 +1,32 @@
+{
+  "name": "duolingo",
+  "version": "0.1.2",
+  "description": "Unofficial CLI Duolingo client",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "duolingo": "./bin/index.js"
+  },
+  "keywords": [],
+  "author": "hazysu",
+  "license": "Unlicense",
+  "dependencies": {
+    "axios": "^0.26.0",
+    "colors": "^1.4.0",
+    "duolingo": "file:",
+    "enquirer": "^2.3.6",
+    "global-cache-dir": "^3.0.1",
+    "inquirer": "^8.2.0",
+    "marked": "^4.0.12",
+    "marked-terminal": "^5.1.1",
+    "ora": "^6.1.0",
+    "turndown": "^7.1.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hazysu/duolingo-cli.git"
+  }
+}
