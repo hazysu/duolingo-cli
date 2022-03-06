@@ -1,6 +1,6 @@
 {
   "name": "duolingo",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Unofficial CLI Duolingo client",
   "main": "index.js",
   "scripts": {

@@ -18,6 +18,10 @@ To log out of duolingo-cli, use the command ``duolingo logout``.
 
 ## Changelog
 
+#### Version 0.1.3
+
+- fixed bug caused by duolingo-cli accidentally being hard-coded to assume lessons were in German
+
 #### Version 0.1.2
 
 - credentials no longer saved in current working directory

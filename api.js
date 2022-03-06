@@ -99,7 +99,7 @@ async function getSkill(details, level, lesson) {
         "juicy": true,
         levelIndex: level || 0,
         levelSessionIndex: lesson || 0,
-        "learningLanguage": "de",
+        "learningLanguage": user.currentCourse.learningLanguage,
         "skillId": details.id,
         "type": "LESSON",
         "speakIneligibleReasons": "recognizer_unavailable"
